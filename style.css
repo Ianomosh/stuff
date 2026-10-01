@@ -1,4 +1,4 @@
-.container {
+/* .container {
   display: flex;
   border: 10px solid black;
   height: 90vh;
@@ -6,8 +6,8 @@
   align-items: baseline;
 }
 .box {
-  width: 150px;
-  height: 150px;
+  width: 150px; 
+  height: 150px; 
   font-size: 8em;
   text-align: center;
   border-radius: 15px;
@@ -23,4 +23,19 @@
 }
 #box4 {
   background-color: green;
+} */
+nav{
+  margin-top: 10%;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+  position: fixed;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 2rem;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+
 }
